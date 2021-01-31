@@ -35,7 +35,7 @@ public class Router {
             return Integer.parseInt(processBuilder.environment().get("PORT"));
         }
 
-        return 9001; //return default port if heroku-port isn't set (i.e. on localhost)
+        return 9000; //return default port if heroku-port isn't set (i.e. on localhost)
     }
 
 }
