@@ -1,6 +1,7 @@
 # vinculador-dds
 API para vincular egresos con ingresos bajo ciertos criterios
 
+A continuación la interfaz mas villera que vas a ver en tu hermosa vida
 ```
  {
     "Egresos": [
@@ -41,9 +42,11 @@ API para vincular egresos con ingresos bajo ciertos criterios
             "id": "4"
         }
     ]
-}```
+}
+```
 
-```{
+```
+{
       "Relaciones":[
              {
                    "IDIngreso":2,
