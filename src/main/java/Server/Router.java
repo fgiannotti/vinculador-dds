@@ -23,7 +23,7 @@ public class Router {
         Router.configure();
     }
 
-    private static void configure(){
+    private static void configure() {
         ControllerVinculador unControllerDeVinculacion = new ControllerVinculador();
         Spark.get("/", (request, response) -> "<h1><center> &#10024 holi &#10024 </center></h1>");
         Spark.post("/vincular", unControllerDeVinculacion::estaEntreFechas);
